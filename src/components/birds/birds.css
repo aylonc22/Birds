@@ -1,0 +1,81 @@
+.birds{
+    display: flex;
+    flex-flow: column;                    
+    width: 20%;
+    height: 100%;
+    overflow-y:auto;
+}
+
+.title{
+    display: flex;
+    align-items: center;    
+    padding: 5%;
+    border-bottom: 4px white solid;
+}
+
+.logoBox{
+width: 30%;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.titleName{
+    font-size: 40px;
+    color: white;
+}
+
+.bird{   
+    display: flex;   
+    align-items: center;
+    padding: 7%;
+    border-bottom: 1px solid white;
+}
+
+.bird.name{
+    padding: 0%;
+    border: none;   
+    padding-left: 10px;
+    width: 80%; 
+
+}
+
+.bird.pictureBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.bird.picture{
+    width: 70px;
+    height: 70px;
+    padding: 0%;
+    border: none;
+    border: solid white;
+    border-radius: 4px;
+    box-shadow: 1px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;   
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
